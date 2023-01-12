@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <body background="images/3.jpg" width:100% height:100% ></body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        li{
+            list-style: none;
+            color: #666;
+        }
+        a{
+            text-decoration: none;
+            color: #666;
+        }
+        .w{
+           width: 1200px; 
+           margin: 0 auto;
+        }
+        header{
+            height: 84px;
+            border-bottom: 2px solid rgb(73, 56, 56);
+        }
+        .registerarea{
+            height: 522px;
+            border: 1px solid #ccc;
+            margin-top:20px ;
+        }
+        .registerarea h4{
+            height: 42px;
+            border-bottom: 1px solid #ccc;
+            background-color: #ececec;
+            line-height: 42px;
+            padding: 0 10px;
+            font-size: 18px;
+        }
+        .login {
+            float: right;
+            font-size: 14px;
+        }
+        .login a{
+            color: #c81523;
+        }
+        .reg-form{
+            width:600px;
+            margin: 50px auto 0;
+        }
+        .reg-form ul li{
+            margin-bottom: 20px;
+        }
+        .reg-form ul li label{
+            display: inline-block;
+            width:88px;
+            text-align: right;
+        }
+        .reg-form ul li .inp{
+            width: 242px;
+            height: 37px;
+            border: 1px solid #ccc;
+        }
+        .safe{
+            padding-left: 130px;
+        }
+        .safe em{
+            padding:0 12px;
+            color: #fff;
+        }
+        .ruo{
+            background-color: #de1111;
+        }
+        .zhong{
+            background-color: #40b63f;
+        }
+        .qiang{
+            background-color: #f79100;
+        }
+        .agree{
+            padding-left:95px ;
+        }
+        .agree input{
+            vertical-align: middle;
+        }
+        .agree a {
+            color: #1ba1e6;
+        }
+        .btn{
+            width:200px;
+            height:34px;
+            background-color: #c81623;
+            font-size: 14px;
+            color:#fff;
+            margin:30px 0 0 70px;
+        }
+        .mod-copyright{
+            text-align: center;
+            padding-top:20px;
+        }
+        .link{
+            margin-bottom:15px;
+        }
+        .link a{
+            margin: 0 3px;
+        }
+        .copyright{
+            line-height: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="w">
+        <header>
+            <div class="logo">
+                <img src="images/longzu.png" width="1200px" height="80px">
+            </div>
+        </header>
+        <div class="registerarea">
+            <h4>注册新用户
+                <div class="login">我有账号，去<a href="3.html">登录</a></div>
+            </h4>
+            <div class="reg-form">
+                <form action=""><ul>
+                    <li><label for="">手机号:</label> <input type="text" class="inp"></li>
+                    <li><label for="">短信验证码:</label> <input type="text" class="inp"></li>
+                    <li><label for="">登录密码:</label> <input type="text" class="inp"></li>
+                    <li class="safe">安全程度 <em class="ruo">弱</em> <em class="zhong">中</em> <em class="qiang">强</em></li>
+                    <li><label for="">确认密码:</label> <input type="text" class="inp"></li>
+                    <li class="agree"><input type="checkbox"> 同意协议并加入卡塞尔学院 <a href="#"> 《知晓卡塞尔学院协议》</a></li>
+                    <li> <input type="submit" value="提交注册" class="btn"></li>
+                </ul></form>
+            </div>
+        </div>
+        <footer>
+            <div class="mod-copyright">
+                <div class="links">
+                    <a href="#">关于我们</a> |<a href="#">联系我们</a> |<a href="#">联系诺玛</a> |<a href="#">校董会</a> |<a href="#">武装部</a> |<a href="#">手机学院</a> |<a href="#">友情链接</a> |<a href="#">学生会</a> |<a href="#">狮心会</a>
+                </div>
+                <div class="copyright">
+                    地址：美国伊利诺伊州芝加哥远郊 邮编：100090 电话：400-134-7134
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
